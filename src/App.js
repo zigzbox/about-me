@@ -3,6 +3,7 @@ import './App.css'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import WorkHistory from './Workhistory';
+import Projects from './Projects';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route path='/WorkHistory' component={WorkHistory}/>
+            <Route path='/Projects' component={Projects}/>
           </Switch>
         </BrowserRouter>
 

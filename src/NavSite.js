@@ -9,6 +9,7 @@ class NavSite extends Component {
             <nav>
                 <Link to='/'>Homepage</Link>
                 <Link to='/WorkHistory'>Work History</Link>
+                <Link to='/Projects'>Projects</Link>
             </nav>
 
 
