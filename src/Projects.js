@@ -11,7 +11,7 @@ class Projects extends Component {
                 </header>
                 <section>
                     <h2>Current Projects</h2>
-                    <Projectitem ProjectName='TV Demo' dates='2018-present' discription='the tv demo site'/>
+                    <Projectitem ProjectName='TV Demo' dates='2018-present' discription='the tv demo site' />
                 </section>
             </div>
 
